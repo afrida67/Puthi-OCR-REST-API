@@ -1,10 +1,10 @@
-Puthi OCR REST API Documentation
-
-1. Image Upload:
+#Puthi OCR REST API Documentation  
+1.Image Upload:  
 Endpoint: http://puthi-ocr.com/upload or http://10.101.0.154/upload
 
 
-Description: API endpoint for uploading image file. Upload images using this endpoint.
+##Description:  
+API endpoint for uploading image file. Upload images using this endpoint.
 
 Technical Details:
 
@@ -20,7 +20,7 @@ Key: "sampleFile"
 	
   Value: the image file itself
 	
-On successful upload you will get the corresponding filename (unique for every upload) to use for further OCR operation using the other API endpoints.
+On successful upload you will get the corresponding filename (unique for every upload) to use for further OCR operation using the other API endpoints.  
 2. OCR Operation:
 
 Endpoint: http://puthi-ocr.com/do_ocr  or http://10.101.0.154/do_ocr 
